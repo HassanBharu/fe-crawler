@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
-import Chart from "./Chart";
-
+import React, { Component } from "react";
+import "./App.css";
+import Chart from "./components/Chart";
+import Header from "./components/Header";
+import MyInput from "./components/MyInput";
 
 class App extends Component {
   state = {
@@ -10,6 +11,8 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Header />
+        <MyInput />
         <Chart />
       </div>
     );
