@@ -5,8 +5,9 @@ const Header = () => {
     <h2
       style={{
         textAlign: "center",
-        backgroundColor: "blue",
-        height: "15vh"
+        backgroundColor: "#A9A9A9",
+        height: "50px",
+        color: "white"
       }}
     >
       Find All Broken and Working Links In Your Website

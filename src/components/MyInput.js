@@ -23,7 +23,7 @@ class MyInput extends Component {
   };
   handleSubmit = event => {
     event.preventDefault();
-    crawlUrl();
+    crawlUrl(this.state.input);
   };
 }
 
