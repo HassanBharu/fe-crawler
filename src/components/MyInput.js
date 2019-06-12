@@ -8,7 +8,12 @@ class MyInput extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <input onChange={this.handleChange} type="text" />
+        <input
+          placeholder="enter full url"
+          required={true}
+          onChange={this.handleChange}
+          type="text"
+        />
         <button>Submit</button>
       </form>
     );

@@ -2,9 +2,15 @@ import React from "react";
 
 const Header = () => {
   return (
-    <h1 style={{ textAlign: "center" }}>
+    <h2
+      style={{
+        textAlign: "center",
+        backgroundColor: "blue",
+        height: "15vh"
+      }}
+    >
       Find All Broken and Working Links In Your Website
-    </h1>
+    </h2>
   );
 };
 
