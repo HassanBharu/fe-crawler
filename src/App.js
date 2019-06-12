@@ -1,20 +1,18 @@
-import React,{Component} from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Component } from "react";
+import Chart from "./Chart";
+import "./App.css";
 
 class App extends Component {
   state = {
-    array:[]
-  }
+    array: []
+  };
   render() {
- return (
-    <div>
-    </div>
-  );
-
+    return (
+      <div>
+        <Chart />
+      </div>
+    );
   }
- 
 }
 
 export default App;
