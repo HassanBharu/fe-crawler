@@ -1,5 +1,5 @@
 import React from "react";
-import { Bar } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 
 const Chart = () => {
   const data = {
@@ -29,7 +29,7 @@ const Chart = () => {
     <div className="chart-container">
       <h4>Broken Links Bar Chart</h4>
       <br />
-      <Bar
+      <Doughnut
         data={data}
         width={100}
         height={100}
